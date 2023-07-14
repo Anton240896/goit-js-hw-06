@@ -1,0 +1,1 @@
+const numberCategories = document.querySelectorAll('.item');
