@@ -6,14 +6,13 @@ const output = document.querySelector('#name-output');
 
 
 input.addEventListener('input', changeValue);
-
 function changeValue(meaning) {
   
 if (input.value === '') {
-    output.textContent = 'Anonymous'; 
-  }
+output.textContent = 'Anonymous'
+}
 
-   else {
-    output.textContent = input.value;
-  }
+else {
+  output.textContent = input.value;
+}
 };
