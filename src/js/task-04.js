@@ -1,4 +1,4 @@
-let counterValue = 0; // створюєм let, тому що буде змінюватись
+let counterValue = 0; // створюєм let, тому що значення буде змінюватись
 
 const decrement = document.querySelector('button[data-action="decrement"]');
 const increment = document.querySelector('button[data-action="increment"]');
