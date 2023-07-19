@@ -12,5 +12,5 @@ output.textContent = 'Anonymous'
 
 else {
   output.textContent = input.value;
-}s
+}
 });
