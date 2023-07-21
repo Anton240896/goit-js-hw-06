@@ -4,7 +4,27 @@ const input = document.querySelector('input');
 form.addEventListener('submit', formSubmit);
 
 function formSubmit(evt) {
-    if () {
-        console.log(alert('Warning! That all fields must be filled'));
+    evt.preventDefault();
+
+    const email = evt.currentTarget.elements.email.value;
+    const password = evt.currentTarget.elements.password.value;
+
+    if (email === '' || password === '') {
+    alert('Warning! That all fields must be filled');
     }
+
+    else {
+        form.reset();
+    }
+
+    const formData = {
+        email: email,
+        password: password
+      };
+      console.log(formData);
+      
+      form.reset();
 }
+
+
+
