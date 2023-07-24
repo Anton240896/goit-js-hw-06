@@ -12,9 +12,9 @@ const ul = document.querySelector('#ingredients');
 
                     ingredients.forEach(ingredient => { // перебирання масиву
 
-const li = document.createElement('li'); //  окремий елемент li
+const li = document.createElement('li'); //  створення окремого елемента li
 li.textContent = ingredient; // текстовий вміст 
-  li.classList.add('item'); //  до елемента li , Css клас item
+  // li.classList.add('item'); //  Сss клас
   ul.append(li); //  усі li  за одну операцію у список ul#ingredients.
  
 });
