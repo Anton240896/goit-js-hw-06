@@ -14,7 +14,7 @@ const ul = document.querySelector('#ingredients');
 
 const li = document.createElement('li'); //  створення окремого елемента li
 li.textContent = ingredient; // текстовий вміст 
-  // li.classList.add('item'); //  Сss клас
+  li.classList.add('item'); //  Сss клас
   ul.append(li); //  усі li  за одну операцію у список ul#ingredients.
  
 });
