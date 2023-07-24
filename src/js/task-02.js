@@ -18,5 +18,8 @@ const ul = document.querySelector('#ingredients');
   li.textContent = ingredient; // текстовий вміст 
   li.classList.add('item'); //  Сss клас
   ul.append(li); //  усі li  за одну операцію у список ul#ingredients.
+
          });
+
+         
        
