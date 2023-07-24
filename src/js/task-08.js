@@ -21,10 +21,4 @@ function formSubmit(evt) {
         email: email,
         password: password
       };
-      console.log(formData);
-      
-      form.reset();
-}
-
-
-
+    }
