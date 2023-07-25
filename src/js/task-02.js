@@ -12,14 +12,18 @@ const ingredients = [
 
 const ul = document.querySelector('#ingredients'); 
 
-         ingredients.map(ingredient => { // перебирання масиву
+   const ingredientsElem = ingredients.map(ingredient => { // перебирання масиву
 
   const li = document.createElement('li'); //  створення окремого елемента li
   li.textContent = ingredient; // текстовий вміст 
-  li.classList.add('item'); //  Сss клас
-  ul.append(li); //  усі li  за одну операцію у список ul#ingredients.
+  li.classList.add('item'); 
+return li;  
+});
 
-         });
+  //  Сss клас
+  ul.append(...ingredientsElem);//  усі li  за одну операцію у список ul#ingredients.
+
+  
 
          
        
