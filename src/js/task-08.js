@@ -13,8 +13,7 @@ function formSubmit(evt) {
     }
 
     else {
-        form.reset();
-    
+        
 
     const formData = {
         email: email,
