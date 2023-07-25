@@ -10,7 +10,7 @@ function formSubmit(evt) {
     const password = evt.currentTarget.elements.password.value;
 
     if (email === '' || password === '') {
-    console.log(alert('Warning! That all fields must be filled'));
+    (alert('Warning! That all fields must be filled'));
     }
 
     else {
