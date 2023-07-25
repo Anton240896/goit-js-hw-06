@@ -12,16 +12,17 @@ const ingredients = [
 
 const ul = document.querySelector('#ingredients'); 
 
-   const ingredientsElem = ingredients.map(ingredient => { // перебирання масиву
+   const ingredientsElement = ingredients.map(ingredient => { 
 
-  const li = document.createElement('li'); //  створення окремого елемента li
-  li.textContent = ingredient; // текстовий вміст 
-  li.classList.add('item'); 
-return li;  
+  const li = document.createElement('li'); 
+  li.textContent = ingredient;  
+  li.classList.add('item');   
+
+  return li;  
+
 });
 
-  //  Сss клас
-  ul.append(...ingredientsElem);//  усі li  за одну операцію у список ul#ingredients.
+ul.append(...ingredientsElement);
 
   
 
