@@ -9,17 +9,16 @@ function formSubmit(evt) {
     const password = form.elements.password.value;
 
     if (email.value === '' || password.value === '') {
-    alert('Warning! That all fields must be filled');
+    return alert('Warning! That all fields must be filled');
     }
 
-    else {
         
-
     const formData = {
-        email: email,
-        password: password
-      };
-      console.log(formData);
+         email,
+         password
     }
+      console.log(formData);
+    
 form.reset();
   }
+  
