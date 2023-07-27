@@ -8,10 +8,10 @@ const increment = document.querySelector('button[data-action="increment"]');
 const decrementFive = document.querySelector('button[data-action="decrementfive"]');
 const incrementFive = document.querySelector('button[data-action="incrementfive"]');
 
-const decrementHundred = document.querySelector('button[data-action="decrementHundred"]');
-const incrementHundred =  document.querySelector('button[data-action="decrementHundred"]');
+const decrementHundred = document.querySelector('button[data-action="decrementhundred"]');
+const incrementHundred =  document.querySelector('button[data-action="decrementhundred"]');
 
-const valueHundred = document.querySelector('#valueHundred')
+const valueHundred = document.querySelector('#valuehundred')
 const val = document.querySelector('#val')
 const value = document.querySelector('#value');
 
