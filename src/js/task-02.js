@@ -12,19 +12,19 @@ const ingredients = [
 
 const ul = document.querySelector('#ingredients'); 
 
-   const ingredientsElement = ingredients.map(ingredient => { 
+   const ingredientsElem = ingredients.map(ingredient => { 
 
-  const li = document.createElement('li'); 
-  li.textContent = ingredient;  
-  li.classList.add('item');   
+  const li = document.createElement('li'); //створив новий li
+  li.textContent = ingredient;  //Відобразив в браузері
+  li.classList.add('item');   // додав клас css 
 
   return li;  
 
 });
 
-ul.append(...ingredientsElement);
+ul.append(...ingredientsElem);// додав за одну дію 
 
   
 
-         
+         // СВД
        
