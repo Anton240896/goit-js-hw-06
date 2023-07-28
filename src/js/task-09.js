@@ -29,7 +29,7 @@
 const elem = {
   button : document.querySelector('.change-color'),
   span : document.querySelector('.color'),
-  body : document.querySelector('body'),
+  body : document.querySelector('body')
  }
  
  
@@ -37,6 +37,6 @@ const elem = {
  
  function getChangeColor() {
    elem.body.style.backgroundColor = getRandomHexColor();
-   elem.span.textContent = getRandomHexColor()
+   elem.span.textContent = getRandomHexColor();
     }
  
