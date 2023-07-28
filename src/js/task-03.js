@@ -14,22 +14,13 @@ const images = [
 ];
 
 
-// const galleryEl = document.querySelector('.gallery');
-// console.log(galleryEl);
+const galleryEl = document.querySelector('.gallery');
+console.log(galleryEl);
 
-// const image = images 
-// .map((image) => `<li><img src="${image.url}" alt="${image.url}"></li>`)
-// .join('');
+const image = images 
+.map((image) => `<li><img src="${image.url}" alt="${image.url}"></li>`)
+.join('');
 
-// galleryEl.insertAdjacentHTML("beforeend", image);
+galleryEl.insertAdjacentHTML("beforeend", image);
 
 
-const apartment = {
-  descr: "Spacious apartment in the city center",
-  rating: 4,
-  price: 2153,
-};
-const values = [];
-// Change code below this line
-const keys = object.keys(apartment);
-console.log(keys);
