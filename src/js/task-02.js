@@ -25,7 +25,5 @@ const ul = document.querySelector('#ingredients');
 ul.append(...ingredientsElem);// додав за одну дію 
 console.log(...ingredients);
 
-  
 
-       
        

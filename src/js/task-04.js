@@ -11,9 +11,9 @@ const incrementFive = document.querySelector('button[data-action="incrementfive"
 const decrementHundred = document.querySelector('button[data-action="decrementhundred"]');
 const incrementHundred =  document.querySelector('button[data-action="decrementhundred"]');
 
-const valueHundred = document.querySelector('#valuehundred')
-const val = document.querySelector('#val')
 const value = document.querySelector('#value');
+const val = document.querySelector('#val');
+const valueHundred = document.querySelector('#valuehundred');
 
 decrement.addEventListener('click', () => {
     counterValue -= 1;
@@ -41,15 +41,15 @@ incrementFive.addEventListener('click', () => {
 ///////////////////////////////////////////////////////////////////////
 
 
-// decrementHundred.addEventListener('click', () => {
-//     counterHundred -= 100;
-//     valueHundred.textContent = counterHundred;
-// });
+decrementHundred.addEventListener('click', () => {
+    counterHundred -= 100;
+    valueHundred.textContent = counterHundred;
+});
 
-// incrementHundred.addEventListener('click', () => {
-//     counterHundred += 100;
-//     valueHundred.textContent = counterHundred;
-// });
+incrementHundred.addEventListener('click', () => {
+    counterHundred += 100;
+    valueHundred.textContent = counterHundred;
+});
 
-// console.log(valueHundred);
-///////////////////////////////////////////////////////////////////////
+console.log(valueHundred);
+/////////////////////////////////////////////////////////////////////
